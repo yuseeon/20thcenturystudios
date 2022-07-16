@@ -1,19 +1,19 @@
 /* 초기화 코드 */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
   
-  table {
-    border-collapse:collapse;
-    border-spacing:0
-  }
+table {
+  border-collapse:collapse;
+  border-spacing:0
+}
   
-  body {
-    font-size: 100%;
-  }
+body {
+  font-size: 100%;
+}
 
 
 /* nav */
