@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>movies-romance</title>
-    <link rel="stylesheet" href="css/collection.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <title>영화</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/app.js"></script>
 </head>
@@ -49,15 +48,14 @@
         </div>
 
     <header id="main-header">
-
         <h1 id="logo">
-            <a href="./index.html">
-                <img  src="./images/logo_20cs.png" alt="로고">
+            <a href="./">
+                <img src="./images/logo_20cs.png" alt="로고">
             </a>
-        </h1> 
+        </h1>
         <nav id="gnb">
-                <a href="#" id="btn-search"><i class="bi bi-search"></i></a>
-                <button id="btn-menu"><i class="bi bi-list"></i></button>
+            <a href="#" id="btn-search"><i class="bi bi-search"></i></a>
+            <button id="btn-menu"><i class="bi bi-list"></i></button>
         </nav>
         <nav id="gnb-menu">
             <ul>
@@ -70,89 +68,103 @@
               <li><a href="company.html">회사소개</a></li>
             </ul>
             <button id="btn-close"><i class="bi bi-x"></i></button>
-          </nav>
+          </nav>  
     </header>
 
-    <div>
-    <nav id="list">
-        <ul>
-            <li><a href="movies.html">추천</a></li>
-            <li><a href="movies-action.html">액션</a></li>
-            <li><a class="on" href="#">로맨스</a></li>
-            <li><a href="movies-comedy.html">코미디</a></li>
-            <li><a href="movies-horror.html">호러</a></li>
-        </ul>
-    </nav>
-    </div>
+    <main class="tkBg">
+        <header id="info-header">
+         <div class="container">
+            <h4 id="age">15세 관람가</h4>
+            <h1 id="title">나이트메어 앨리</h1>
+         </div>
+        </header>
+        
+        <figure class="video">
+            <iframe 
+            width="100%" 
+            src="https://www.youtube.com/embed/4c6ym56Stsc" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </figure>
 
-    <div class="movie-collection">
-        <div class="movies">
-            <div class="movie">
-                <a href="./movie-avatar.html">
-                    <img src="./images/romance01.jpg" alt="포스터">
-                    <p class="movie-title">아바타 : 물의 길</p>
-                    <p class="release-date">2022.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance02.jpg" alt="포스터">
-                    <p class="movie-title">미스터 & 미세스 스미스</p>
-                    <p class="release-date">2005.06</p>
-                </a>
-            </div>
+        <div class="buttons">
+            <a id="basic-btn" 
+            href="https://www.hulu.com/movie/nightmare-alley-dd010294-61c6-4ab5-b8d9-7326836717bc?utm_source=20thcentury&utm_medium=promotion&utm_campaign=nightmare-alley">STREAM ON HULU</a>
+            <a id="point-btn" 
+            href="https://tv.apple.com/us/movie/nightmare-alley/umc.cmc.5q95gyt98ah83vbi386esu6t6">SHOP NOW</a>
         </div>
-        <div class="movies">
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance03.jpg" alt="포스터">
-                    <p class="movie-title">위대한 쇼맨</p>
-                    <p class="release-date">2017.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance04.jpg" alt="포스터">
-                    <p class="movie-title">메이즈 러너</p>
-                    <p class="release-date">2014.04</p>
-                </a>
-            </div>
-        </div>
-        <div class="movies">
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance05.jpg" alt="포스터">
-                    <p class="movie-title">가위손</p>
-                    <p class="release-date">1990.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance06.jpg" alt="포스터">
-                    <p class="movie-title">더 아트 오브 레이싱 인 더 레인</p>
-                    <p class="release-date">2019.08</p>
-                </a>
-            </div>
-        </div>
-        <div class="movies">
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance07.jpg" alt="포스터">
-                    <p class="movie-title">로미오와 줄리엣</p>
-                    <p class="release-date">1996.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance08.jpg" alt="포스터">
-                    <p class="movie-title">천년을 흐르는 사랑</p>
-                    <p class="release-date">2007.02</p>
-                </a>
-            </div>
-        </div>
-    </div>
 
-   <footer id="main-footer">
+        <div class="icon-btns">
+            <a href="./movie-night.html" id="plus"><i class="bi bi-plus-lg"></i></a>
+            <a href="./cast-night.html" id="cast"><i class="bi bi-person-fill"></i></a>
+            <a href="./review-night.html" id="review"><i class="bi bi-hand-thumbs-up"></i></a>
+        </div>
+        
+        <div id="iconBtns-text">
+            <p class="text1">상세정보</p>
+            <p class="text2">출연</p>
+            <p class="text3">평가</p>
+        </div>
+        
+        <div class="cast-container">
+            <p class="director">감독 <br> 기예르모 델 토로</p>
+            <br>
+            <p class="writer">각본 <br> 기예르모 델 토로, 킴모건</p>
+            <br>
+            <p class="producer">제작자 <br> 기예르모 델 토로.pga,<br>J.Miles Dale.pga,<br> 브래들리 쿠퍼.pga</p>
+            <br>
+            <p class="cast">출연 <br> 브래들리쿠퍼,<br>케이트 블란쳇,<br>토니 콜렛,<br>윌렘 데포,<br>리차드 젠킨스,<br>루니마라,<br>론 펄만,<br>메리 스틴버겐,<br>데이비드 스트라탄</p>
+        </div>
+
+        <div class="company">
+            <img src="./images/company.png" alt="회사">
+        </div>
+
+        <hr>
+        
+        <div class="recommend">
+            <h1>추천영화</h1>
+            <div class="movie-col">
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/horror02.jpg" alt="영화사진">
+                    <p class="title">곡성</p>
+                    </div>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/horror07.jpg" alt="영화사진">
+                    <p class="title">뉴 뮤턴트</p>
+                    </div>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/horror08.jpg" alt="영화사진">
+                    <p class="title">언더워터</p>
+                    </div>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/horror06.jpg" alt="영화사진">
+                    <p class="title">오멘</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer id="main-footer">
         <nav class="sns-link">
           <a 
           href="https://twitter.com/20thcenturyKR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
@@ -177,6 +189,5 @@
         </nav>
         <p class="copy">© 2022 Sonova Consumer Hearing GmbH</p>
       </footer>
-
 </body>
 </html>

@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>movies-romance</title>
-    <link rel="stylesheet" href="css/collection.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+    <title>영화</title>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/app.js"></script>
 </head>
@@ -47,17 +46,16 @@
     
             </div>
         </div>
-
+    
     <header id="main-header">
-
         <h1 id="logo">
-            <a href="./index.html">
-                <img  src="./images/logo_20cs.png" alt="로고">
+            <a href="./">
+                <img src="./images/logo_20cs.png" alt="로고">
             </a>
-        </h1> 
+        </h1>
         <nav id="gnb">
-                <a href="#" id="btn-search"><i class="bi bi-search"></i></a>
-                <button id="btn-menu"><i class="bi bi-list"></i></button>
+            <a href="#" id="btn-search"><i class="bi bi-search"></i></a>
+            <button id="btn-menu"><i class="bi bi-list"></i></button>
         </nav>
         <nav id="gnb-menu">
             <ul>
@@ -71,88 +69,103 @@
             </ul>
             <button id="btn-close"><i class="bi bi-x"></i></button>
           </nav>
+  
     </header>
 
-    <div>
-    <nav id="list">
-        <ul>
-            <li><a href="movies.html">추천</a></li>
-            <li><a href="movies-action.html">액션</a></li>
-            <li><a class="on" href="#">로맨스</a></li>
-            <li><a href="movies-comedy.html">코미디</a></li>
-            <li><a href="movies-horror.html">호러</a></li>
-        </ul>
-    </nav>
-    </div>
+    <main class="main-bt tkBg">
+        <header id="info-header">
+         <div class="container">
+            <h4 id="age">청소년 관람불가</h4>
+            <h1 id="title">데드풀</h1>
+         </div>
+        </header>
+        
+        <figure class="video">
+            <iframe 
+            width="100%" 
+            src="https://www.youtube.com/embed/AubJhjH0MfY" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+            </iframe>
+        </figure>
 
-    <div class="movie-collection">
-        <div class="movies">
-            <div class="movie">
-                <a href="./movie-avatar.html">
-                    <img src="./images/romance01.jpg" alt="포스터">
-                    <p class="movie-title">아바타 : 물의 길</p>
-                    <p class="release-date">2022.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance02.jpg" alt="포스터">
-                    <p class="movie-title">미스터 & 미세스 스미스</p>
-                    <p class="release-date">2005.06</p>
-                </a>
-            </div>
+        <div class="buttons">
+            <a id="basic-btn" 
+            href="https://www.disneyplus.com/movies/deadpool/3Kh13Lrb0Pnv">WATCH ON DISENY+</a>
+            <a id="point-btn" 
+            href="https://itunes.apple.com/us/movie/deadpool/id1078111961?ign-mpt=uo%3D4">SHOP NOW</a>
         </div>
-        <div class="movies">
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance03.jpg" alt="포스터">
-                    <p class="movie-title">위대한 쇼맨</p>
-                    <p class="release-date">2017.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance04.jpg" alt="포스터">
-                    <p class="movie-title">메이즈 러너</p>
-                    <p class="release-date">2014.04</p>
-                </a>
-            </div>
-        </div>
-        <div class="movies">
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance05.jpg" alt="포스터">
-                    <p class="movie-title">가위손</p>
-                    <p class="release-date">1990.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance06.jpg" alt="포스터">
-                    <p class="movie-title">더 아트 오브 레이싱 인 더 레인</p>
-                    <p class="release-date">2019.08</p>
-                </a>
-            </div>
-        </div>
-        <div class="movies">
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance07.jpg" alt="포스터">
-                    <p class="movie-title">로미오와 줄리엣</p>
-                    <p class="release-date">1996.12</p>
-                </a>
-            </div>
-            <div class="movie">
-                <a href="#">
-                    <img src="./images/romance08.jpg" alt="포스터">
-                    <p class="movie-title">천년을 흐르는 사랑</p>
-                    <p class="release-date">2007.02</p>
-                </a>
-            </div>
-        </div>
-    </div>
 
-   <footer id="main-footer">
+        <div class="icon-btns">
+            <a href="./movie-dead.html" id="plus"><i class="bi bi-plus-lg"></i></a>
+            <a href="./cast-dead.html" id="cast"><i class="bi bi-person"></i></a>
+            <a href="./review-dead.html" id="review"><i class="bi bi-hand-thumbs-up"></i></a>
+        </div>
+
+        <div id="iconBtns-text">
+            <p class="text1">상세정보</p>
+            <p class="text2">출연</p>
+            <p class="text3">평가</p>
+        </div>
+        
+        <div class="info">
+            <p>1시간 48분 |  2016년 2월 17일 | 액션, 어드벤처</p>
+        </div>
+
+        <div class="container-movie">
+            <p class="text">
+                전직 특수부대 출신의 용병 ‘웨이드 윌슨(라이언 레놀즈)’은 암 치료를 위한 비밀 실험에 참여 후, 강력한 힐링팩터를 지닌 슈퍼히어로 ‘데드풀’로 거듭난다. 탁월한 무술실력과 거침없는 유머감각을 지녔지만 흉측하게 일그러진 얼굴을 갖게 된 데드풀은 자신의 삶을 완전히 망가뜨린 놈들을 찾아 뒤쫓기 시작하는데…
+            </p>
+        </div>
+
+        <div class="company">
+            <img src="./images/company.png" alt="회사">
+        </div>
+
+        <hr>
+
+        <div class="recommend">
+            <h1>추천영화</h1>
+            <div class="movie-col">
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/comedy01.jpg" alt="영화사진">
+                    <p class="title">프리가이</p>
+                    </div>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/comedy05.jpg" alt="영화사진">
+                    <p class="title">페르디난드</p>
+                    </div>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/comedy06.jpg" alt="영화사진">
+                    <p class="title">윔피키드</p>
+                    </div>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="detail.html">
+                    <div class="col">
+                    <img src="images/comedy08.jpg" alt="영화사진">
+                    <p class="title">아이스에이지</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <footer id="main-footer">
         <nav class="sns-link">
           <a 
           href="https://twitter.com/20thcenturyKR?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
@@ -177,6 +190,6 @@
         </nav>
         <p class="copy">© 2022 Sonova Consumer Hearing GmbH</p>
       </footer>
-
+        
 </body>
 </html>
