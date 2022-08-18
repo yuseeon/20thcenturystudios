@@ -1,6 +1,7 @@
 # 20thCenturyStudios
 
 https://yuseeon.github.io/20thcenturystudios/
+![대표이미지](https://user-images.githubusercontent.com/105466444/185293655-92ec5c69-a103-4ff4-acdb-9ac5752450a2.png)
 
 사용 프로그램 : Figma , Visual Studio Code 
 
