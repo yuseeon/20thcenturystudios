@@ -10,3 +10,8 @@ https://yuseeon.github.io/20thcenturystudios/
 
 상단 고정 헤더
 
+ 로고 클릭 시 메인으로 이동 
+ 
+ 서치 아이콘 클릭 시 검색창 연결
+ 
+ 토글 아이콘 클릭 시 메뉴창 연결
